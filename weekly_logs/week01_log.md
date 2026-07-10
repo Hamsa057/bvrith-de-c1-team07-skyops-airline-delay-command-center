@@ -1,4 +1,4 @@
-# Week 01 Log — [Sprint Name]
+# Week 01 Log — [Week: 1]
 
 **Week:** 1  
 **Date range:** [Add dates]  
