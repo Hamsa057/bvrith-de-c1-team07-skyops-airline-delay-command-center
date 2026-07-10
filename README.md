@@ -1,4 +1,4 @@
-# [PROJECT TITLE]
+# SkyOps Airline Delay Command Center
 
 > **Student note:** Start with `00_START_HERE.md` and `00_TEMPLATE_INDEX.md`. The placeholder files inside this repo are the templates.
 
@@ -6,8 +6,8 @@
 **Program:** ZENAIZ x BVRIT Hyderabad Data Engineering Internship Program  
 **Track:** Data Engineering  
 **Duration:** 12 Weeks  
-**Team:** [07 /skyops-airline-delay-command-center]  
-**Students:** [T. Lakshmi Raja Hamsa], [Mekala Sowjanya], [Gudelli Dhanalaxmi]  
+**Team:** 07 /SkyOps Airline Delay Command Center 
+**Students:** T. Lakshmi Raja Hamsa, Mekala Sowjanya, Gudelli Dhanalaxmi  
 **AI Teammate:** Used responsibly for explanation, debugging, review, and documentation support.
 
 ---
