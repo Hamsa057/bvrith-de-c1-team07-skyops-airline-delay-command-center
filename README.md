@@ -6,7 +6,7 @@
 **Program:** ZENAIZ x BVRIT Hyderabad Data Engineering Internship Program  
 **Track:** Data Engineering  
 **Duration:** 12 Weeks  
-**Team:** [07 / SkyOps Airline Delay Command Center]
+**Team:** 07 / SkyOps Airline Delay Command Center
 **Students:** T. Lakshmi Raja Hamsa, Mekala Sowjanya, Gudelli Dhanalaxmi  
 **AI Teammate:** Used responsibly for explanation, debugging, review, and documentation support.
 
@@ -14,25 +14,24 @@
 
 ## 1. Project Summary
 
-Write 5–8 lines explaining the assigned project.
+**Domain:** Aviation Operations and Flight Analytics.
 
-Example structure:
+**Core engineering problem:** Convert messy official flight records into trusted insights about airline delays, cancellations, airport congestion, and delay causes.
 
-- **Domain:** [Urban Mobility / IPL Matchday / Weather / etc.]
-- **Core engineering problem:** [What raw data needs to become trusted insight?]
-- **Main pipeline:** Raw Sources → Bronze → Silver → Data Quality → Gold → Power BI → Streaming Simulation
-- **Final outcome:** GitHub repo, Databricks notebooks, Gold outputs, Power BI dashboard, streaming simulation, final demo.
+**Main pipeline:** BTS Flight Data → Bronze → Silver → Data Quality → Gold → Power BI → Streaming Simulation.
+
+**Final outcome:** A GitHub repository with Databricks notebooks, validated Gold outputs, a four-view Power BI dashboard, simulated live flight status streaming, and a final project demo.
 
 ---
 
 ## 2. Tools Used
 
-| Tool | Purpose |
-|---|---|
-| Databricks Free Edition | Spark SQL notebooks, light Python/PySpark, Bronze/Silver/Gold tables, streaming simulation |
-| GitHub | Repository, weekly evidence, documentation, screenshots, commits |
-| Power BI Desktop | Dashboard from Gold outputs |
-| AI Assistant | Explanation, debugging, review, documentation support with manual verification |
+| Tool                    | Purpose                                                                                                   |
+| ----------------------- | --------------------------------------------------------------------------------------------------------- |
+| Databricks Free Edition | Spark SQL notebooks, light Python/PySpark, Bronze–Silver–Gold pipeline, and streaming simulation          |
+| GitHub                  | Project repository, weekly evidence, documentation, screenshots, and version tracking                     |
+| Power BI Desktop        | Building the dashboard using Gold outputs only                                                            |
+| AI Assistant            | Support for explanations, debugging, code review, and documentation, with manual verification by the team |
 
 ---
 
