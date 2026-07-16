@@ -1,7 +1,9 @@
 # Problem Charter
 
 **Week:** 1
-**Owner(s):** [Ms. T. Lakshmi Raja Hamsa, Ms. Mekala.Sowjanya, Ms. G.Dhanalaxmi]
+
+**Owner(s):** Ms. T. Lakshmi Raja Hamsa, Ms. Mekala.Sowjanya, Ms. G.Dhanalaxmi
+
 **Project:** SkyOps – Airline Delay Command Center
 
 ---
