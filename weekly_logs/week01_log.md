@@ -1,78 +1,74 @@
-# Week 01 Log — Week 1
+# Week 01 Log — [Week: 1]
 
-**Week:** 1
+**Week:** 1  
 
-**Date range:** [Add dates]
+**Date range:** [Add dates] 
 
-**Team:** Team 07
+**Team:** Team 07  
 
 **Project:** SkyOps – Airline Delay Command Center
 
 ---
 
-## 1. Sprint Goal / Log Plan
+## 1. Sprint Goal
 
-Understand the project requirements, define the problem and scope, set up the GitHub repository, and prepare the initial project documentation.
-
----
-
-## 2. Tasks Completed
-
-| Task | Status |
-|---|---|
-| Reviewed the SkyOps project brief | Done |
-| Defined the problem and stakeholders | Done |
-| Created the Problem Charter | Done |
-| Set up the GitHub project structure | Done |
-| Prepared the project summary and tools section | Done |
+Understand the SkyOps project requirements, define the aviation data engineering problem, set up the GitHub repository, and complete the required Week 1 project documentation.
 
 ---
 
-## 3. Role Allocation
+## 2. Work Completed
 
-- **Student 1:** Project documentation and Problem Charter
-- **Student 2:** GitHub repository setup and project structure
-- **Student 3:** Data and pipeline requirement analysis
+| Task | Owner | Status | Evidence |
+|---|---|---|---|
+| Reviewed the SkyOps project brief | Team 07 | Done | Project brief |
+| Defined the aviation data engineering problem | Team 07 | Done | `docs/problem_charter.md` |
+| Defined project scope and stakeholders | Team 07 | Done | `docs/problem_charter.md` |
+| Updated the project README with summary and tools | Team 07 | Done | `README.md` |
+| Set up the GitHub project structure | Team 07 | Done | GitHub repository |
+| Added Week 1 GitHub activity evidence | Team 07 | Done | `screenshots/week01_github_activity.png` |
 
 ---
 
-## 4. Key Decisions
+## 3. Key Decisions
 
-- Use official BTS On-Time Performance data.
+- Use official BTS On-Time Performance flight data for the project.
 - Follow the Bronze → Silver → Data Quality → Gold pipeline.
-- Use Power BI with Gold outputs only.
-- Include a simulated streaming layer for live flight status.
+- Connect Power BI only to Gold outputs.
+- Include a simulated streaming layer for live flight status events.
 
 ---
 
-## 5. Blockers / Risks
+## 4. Blockers / Risks
 
-No major blockers were faced during Week 1. The main risk is ensuring that all team members understand the complete pipeline and project requirements.
-
----
-
-## 6. Evidence Added to GitHub
-
-- Updated `README.md`
-- Added `docs/problem_charter.md`
-- Added `weekly_logs/week01_log.md`
-- Added `week01_github_activity.png` showing Week 1 commits
+| Blocker | Impact | Help Needed |
+|---|---|---|
+| No major blockers in Week 1 | Low | No help needed |
 
 ---
 
-## 7. AI Transparency Note
+## 5. Evidence Added to GitHub
+
+- `README.md` updated with project summary and tools
+- `docs/problem_charter.md` added with problem, scope, stakeholders, and success criteria
+- `weekly_logs/week01_log.md` updated
+- `screenshots/week01_github_activity.png` added as Week 1 evidence
+
+---
+
+## 6. AI Transparency Note
 
 | Question | Response |
 |---|---|
-| Where AI helped | AI helped with documentation structure, wording, and understanding the project requirements. |
-| What we changed after AI suggestion | The team customized the content to match the SkyOps project and its actual requirements. |
-| What we verified manually | Project scope, tools, pipeline stages, stakeholders, and GitHub evidence were manually checked against the project brief. |
-| What we can explain without AI | We can explain the project problem, pipeline, stakeholders, scope, and Week 1 decisions. |
+| Where AI helped | AI helped with understanding the project brief and organizing the Week 1 documentation. |
+| What we changed after AI suggestion | The team adapted the content to match the SkyOps project, BTS flight data, and the required pipeline. |
+| What we verified manually | The project scope, pipeline, tools, stakeholders, and GitHub evidence were checked against the project brief. |
+| What we can explain without AI | We can explain the SkyOps problem, Bronze–Gold pipeline, project scope, stakeholders, and Week 1 decisions. |
 
 ---
 
-## 8. Next Steps
+## 7. Next Week Preparation
 
-- Identify source files, keys, and relationships.
+- Review the BTS source files and their structure.
+- Identify keys, joins, and relationships between flight, carrier, airport, and route data.
 - Prepare the data dictionary.
-- Begin Week 2 dataset design and streaming event planning.
+- Plan the simulated flight status event generator.
