@@ -6,7 +6,8 @@
 **Program:** ZENAIZ x BVRIT Hyderabad Data Engineering Internship Program  
 **Track:** Data Engineering  
 **Duration:** 12 Weeks  
-**Team:** 07 / SkyOps Airline Delay Command Center
+**Team:** 07 / SkyOps Airline Delay Command Center 
+---
 **Students:** T. Lakshmi Raja Hamsa, Mekala Sowjanya, Gudelli Dhanalaxmi  
 **AI Teammate:** Used responsibly for explanation, debugging, review, and documentation support.
 
