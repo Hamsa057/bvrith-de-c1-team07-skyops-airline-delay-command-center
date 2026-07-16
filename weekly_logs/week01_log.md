@@ -1,61 +1,56 @@
-# Week 01 Log — [Week: 1]
+# Week 01 Log — Week 1
 
-**Week:** 1  
-**Date range:** [Add dates]  
-**Team:** [Team name / number]  
-**Project:** [Project title]
-
----
-
-## 1. Sprint Goal
-
-Write the goal for this week in 2–3 lines.
+**Week:** 1
+**Date range:** [Add dates]
+**Team:** Team 07
+**Project:** SkyOps – Airline Delay Command Center
 
 ---
 
-## 2. Work Completed
+## 1. Sprint Goal / Log Plan
 
-| Task | Owner | Status | Evidence |
-|---|---|---|---|
-| [Task] | [Student] | [Done / In progress] | [file / screenshot / notebook] |
+Understand the project requirements, define the problem and scope, set up the GitHub repository, and prepare the initial project documentation.
 
 ---
 
-## 3. Key Decisions
+## 2. Tasks Completed
 
-- [Decision 1]
-- [Decision 2]
-
----
-
-## 4. Blockers / Risks
-
-| Blocker | Impact | Help Needed |
-|---|---|---|
-| [Blocker] | [Impact] | [Help needed] |
+| Task                                           | Status |
+| ---------------------------------------------- | ------ |
+| Reviewed the SkyOps project brief              | Done   |
+| Defined the problem and stakeholders           | Done   |
+| Created the Problem Charter                    | Done   |
+| Set up the GitHub project structure            | Done   |
+| Prepared the project summary and tools section | Done   |
 
 ---
 
-## 5. Evidence Added to GitHub
+## 3. Role Allocation
 
-- [File updated]
-- [Screenshot added]
-- [Notebook updated]
-
----
-
-## 6. AI Transparency Note
-
-| Question | Response |
-|---|---|
-| Where AI helped | [Explain] |
-| What we changed after AI suggestion | [Explain] |
-| What we verified manually | [Explain] |
-| What we can explain without AI | [Explain] |
+* **Student 1:** Project documentation and Problem Charter
+* **Student 2:** GitHub repository setup and project structure
+* **Student 3:** Data and pipeline requirement analysis
 
 ---
 
-## 7. Next Week Preparation
+## 4. Key Decisions
 
-- [Action]
-- [Action]
+* Use official BTS On-Time Performance data.
+* Follow the Bronze → Silver → Data Quality → Gold pipeline.
+* Use Power BI with Gold outputs only.
+* Include a simulated streaming layer for live flight status.
+
+---
+
+## 5. Blockers / Risks
+
+No major blockers were faced during Week 1. The main risk is ensuring that all team members understand the complete pipeline and project requirements.
+
+---
+
+## 6. Next Steps
+
+* Finalize the GitHub repository setup.
+* Identify source files, keys, and relationships.
+* Prepare the data dictionary.
+* Begin Week 2 dataset design and streaming event planning.
