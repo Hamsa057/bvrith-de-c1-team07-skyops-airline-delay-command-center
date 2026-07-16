@@ -1,8 +1,11 @@
 # Week 01 Log — Week 1
 
 **Week:** 1
+
 **Date range:** [Add dates]
+
 **Team:** Team 07
+
 **Project:** SkyOps – Airline Delay Command Center
 
 ---
