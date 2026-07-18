@@ -1,8 +1,8 @@
 # Problem Charter
 
-**Week:** 1
+**Week:** 1  
 
-**Owner(s):** Ms. T. Lakshmi Raja Hamsa, Ms. Mekala.Sowjanya, Ms. G.Dhanalaxmi
+**Owner(s):**  Ms. T. Lakshmi Raja Hamsa, Ms. Mekala.Sowjanya, Ms. G.Dhanalaxmi
 
 **Project:** SkyOps – Airline Delay Command Center
 
@@ -10,42 +10,58 @@
 
 ## 1. Problem Context
 
-### Define the Problem
-
-Raw flight data contains information about delays, cancellations, carriers, airports, and routes, but may include duplicates, invalid codes, and inconsistent records. SkyOps converts this data into trusted insights for understanding airline performance, airport congestion, delay causes, and live flight status.
+SkyOps represents aviation operations and flight performance monitoring. The project uses flight data related to delays, cancellations, airlines, airports, and routes. Raw data is not enough because it may contain duplicates, invalid values, and inconsistent records. Operations teams and analysts need trusted metrics to understand airline performance, airport congestion, delay causes, and flight status.
 
 ---
 
 ## 2. Engineering Problem
 
-Build a Databricks pipeline that converts raw aviation data into trusted **Bronze, Silver, Data Quality, and Gold outputs**, which are then used in Power BI and a simulated streaming workflow.
+The project must convert multiple raw aviation data sources into trusted Bronze, Silver, Data Quality, Gold, and dashboard-ready outputs using Databricks and Power BI.
 
 ---
 
 ## 3. Users / Stakeholders
 
-| Stakeholder         | Requirement                                        |
-| ------------------- | -------------------------------------------------- |
-| Operations Director | Identify delayed routes and unreliable carriers    |
-| Performance Analyst | Compare airline delay and cancellation performance |
-| Airport Manager     | Analyze congestion and delay patterns              |
-| Communications Lead | Monitor live flight status                         |
+| User / Stakeholder | What they need from the data |
+|---|---|
+| Operations Director | Identify delayed routes and unreliable carriers |
+| Performance Analyst | Compare airline delays and cancellations |
+| Airport Duty Manager | Understand airport congestion and delay patterns |
+| Communications Lead | Monitor live flight status updates |
 
 ---
 
-## 4. Scope
+## 4. Scope Inclusions
 
-**Included:** Raw data ingestion, Bronze, Silver, Data Quality, Gold metrics, Power BI dashboard, streaming simulation, and GitHub evidence.
-
-**Excluded:** Flight booking systems, delay prediction models, fare tracking, airline website scraping, and Kafka installation.
+- Raw BTS flight data
+- Bronze ingestion
+- Silver standardization and joins
+- Data quality checks
+- Gold metrics
+- Power BI dashboard
+- Streaming simulation
+- GitHub evidence
 
 ---
 
-## 5. Goals and Success Criteria
+## 5. Scope Exclusions
 
-* Build an explainable end-to-end data pipeline.
-* Identify and handle major data quality issues.
-* Create reliable Gold metrics and a Power BI dashboard.
-* Demonstrate simulated live flight status streaming.
-* Maintain complete weekly GitHub evidence.
-* Ensure all team members can explain the project.
+- No production application
+- No flight booking system
+- No delay prediction model
+- No fare tracking
+- No airline website scraping
+- No Kafka installation
+- No copied internet project submission
+- No fake screenshots or unexplained AI-generated work
+
+---
+
+## 6. Success Criteria
+
+By the end of 12 weeks, the project is successful if:
+
+- The pipeline can be explained end to end.
+- The team can show Bronze, Silver, DQ, Gold, dashboard, and streaming evidence.
+- All three students can explain the full project at a high level.
+- GitHub contains weekly evidence and final submission files.
