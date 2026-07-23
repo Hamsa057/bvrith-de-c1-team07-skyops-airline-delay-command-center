@@ -1,13 +1,13 @@
 # Synthetic Data Assumptions
 
 **Week:** 2  
-**Purpose:** Document how educational data is created.
+**Purpose:** Document the assumptions used to create synthetic airline operations data for the SkyOps Airline Delay Command Center project.
 
 ---
 
 ## 1. Synthetic Data Boundary
 
-This project uses synthetic educational data only. It must not be presented as real company, customer, citizen, player, patient, government, or platform data.
+This project uses **synthetic airline operations data only**. It is created for educational purposes and does not contain any real airline, passenger, airport, or customer information.
 
 ---
 
@@ -15,11 +15,11 @@ This project uses synthetic educational data only. It must not be presented as r
 
 | Area | Assumption |
 |---|---|
-| Geography / scope | [Example: Hyderabad and nearby regions] |
-| Time period | [Example: July to September 2026] |
-| Source systems | [Example: Two different operational feeds] |
-| Event types | [Example: booking, scan, alert, transaction] |
-| Reference data | [Example: zones, categories, products, venues] |
+| Geography / Scope | Major airports across the United States |
+| Time Period | January 2024 to December 2024 |
+| Source Systems | Flight operations, airport reference data, airline reference data, and route reference data |
+| Event Types | Flight departure, arrival, delay, cancellation, diversion |
+| Reference Data | Airports, airlines (carriers), and flight routes |
 
 ---
 
@@ -27,10 +27,11 @@ This project uses synthetic educational data only. It must not be presented as r
 
 | File | Approximate Rows | Reason |
 |---|---:|---|
-| `[source_file_1].csv` | [rows] | [reason] |
-| `[source_file_2].csv` | [rows] | [reason] |
-| `[reference_file].csv` | [rows] | [reason] |
-| `[streaming_events].json` | [rows] | [reason] |
+| flights.csv | ~150,000 | Main flight operations dataset |
+| airports.csv | ~400 | Airport reference information |
+| carriers.csv | ~25 | Airline carrier reference data |
+| routes.csv | ~5,000 | Route mapping information |
+| flight_status_event.json | Small sample | Streaming event simulation |
 
 ---
 
@@ -38,20 +39,21 @@ This project uses synthetic educational data only. It must not be presented as r
 
 | Issue Type | Approx. Share | Why Include It |
 |---|---:|---|
-| Duplicate IDs | 0.2%–0.5% | Tests uniqueness |
-| Missing values | 1%–3% | Tests completeness |
-| Invalid reference keys | 0.5%–1% | Tests referential integrity |
-| Negative / impossible values | 0.1%–0.5% | Tests range rules |
-| Timestamp inconsistencies | 0.1%–0.3% | Tests chronology |
+| Duplicate flight records | 0.2%–0.5% | Test duplicate detection |
+| Missing delay values | 1%–3% | Test completeness checks |
+| Invalid airport/carrier codes | 0.5%–1% | Test referential integrity |
+| Negative delay values | 0.1%–0.5% | Test range validation |
+| Timestamp inconsistencies | 0.1%–0.3% | Test date and time validation |
 
 ---
 
 ## 5. Manual Verification
 
-Before using generated data, the team must check:
+Before using the generated data, the team verifies that:
 
 - Row counts are reasonable.
-- Key fields exist.
-- Dates and numeric values look realistic.
-- Controlled defects exist but do not dominate the dataset.
-- Source files are different enough to require real standardization.
+- Primary and foreign keys are valid.
+- Flight dates and times are realistic.
+- Delay values are within expected ranges.
+- Controlled data quality issues are present but limited.
+- Source files can be joined correctly using common keys.
