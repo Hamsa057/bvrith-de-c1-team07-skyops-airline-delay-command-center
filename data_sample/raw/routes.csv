@@ -1,0 +1,11 @@
+route_id,origin_airport_code,destination_airport_code,route_label,distance_miles,distance_band
+R_ATL_BOS,ATL,BOS,ATL-BOS,946,Short
+R_ATL_BWI,ATL,BWI,ATL-BWI,577,Short
+R_ATL_CLT,ATL,CLT,ATL-CLT,226,Very Short
+R_ATL_DEN,ATL,DEN,ATL-DEN,1199,Medium
+R_ATL_DFW,ATL,DFW,ATL-DFW,731,Short
+R_ATL_DTW,ATL,DTW,ATL-DTW,594,Short
+R_ATL_EWR,ATL,EWR,ATL-EWR,746,Short
+R_ATL_IAH,ATL,IAH,ATL-IAH,689,Short
+R_ATL_JFK,ATL,JFK,ATL-JFK,760,Short
+R_ATL_LAS,ATL,LAS,ATL-LAS,1747,Long

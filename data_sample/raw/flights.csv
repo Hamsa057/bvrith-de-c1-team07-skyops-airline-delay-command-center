@@ -1,0 +1,11 @@
+source_record_key,flight_date,reporting_carrier,flight_number,tail_number,origin_airport_code,destination_airport_code,scheduled_departure_hhmm,actual_departure_hhmm,departure_delay_signed_minutes,departure_delay_minutes,scheduled_arrival_hhmm,actual_arrival_hhmm,arrival_delay_signed_minutes,arrival_delay_minutes,cancelled_flag,cancellation_code,diverted_flag,scheduled_elapsed_minutes,actual_elapsed_minutes,air_time_minutes,taxi_out_minutes,taxi_in_minutes,distance_miles,carrier_delay_minutes,weather_delay_minutes,nas_delay_minutes,security_delay_minutes,late_aircraft_delay_minutes,source_period,source_original_filename,source_row_number
+BTS201801-000001,01-01-2018,AA,1,N114NN,JFK,LAX,800,808,8,8,1145,1146,1,1,0,,0,,,,,,2475,0,0,0,0,0,2018-01,OTP_2018_01_January.csv,2
+BTS201801-000002,01-01-2018,AA,2,N115NN,LAX,JFK,915,912,-3,0,1743,1725,-18,0,0,,0,,,,,,2475,0,0,0,0,0,2018-01,OTP_2018_01_January.csv,3
+BTS201801-000003,01-01-2018,AA,3,N117AN,JFK,LAX,1200,1355,115,115,1528,1719,111,111,0,,0,,,,,,2475,111,0,0,0,0,2018-01,OTP_2018_01_January.csv,4
+BTS201801-000004,01-01-2018,AA,4,N108NN,LAX,JFK,1145,1137,-8,0,2019,1948,-31,0,0,,0,,,,,,2475,0,0,0,0,0,2018-01,OTP_2018_01_January.csv,5
+BTS201801-000005,01-01-2018,AA,9,N112AN,JFK,SFO,700,1039,219,219,1051,1401,190,190,0,,0,,,,,,2586,190,0,0,0,0,2018-01,OTP_2018_01_January.csv,6
+BTS201801-000006,01-01-2018,AA,10,N105NN,LAX,JFK,2045,2047,2,2,505,441,-24,0,0,,0,,,,,,2475,0,0,0,0,0,2018-01,OTP_2018_01_January.csv,7
+BTS201801-000007,01-01-2018,AA,12,N112AN,SFO,JFK,1144,1507,203,203,2030,2322,172,172,0,,0,,,,,,2586,14,0,0,0,158,2018-01,OTP_2018_01_January.csv,8
+BTS201801-000008,01-01-2018,AA,18,N115NN,SFO,JFK,2325,2323,-2,0,758,812,14,14,0,,0,,,,,,2586,0,0,0,0,0,2018-01,OTP_2018_01_January.csv,9
+BTS201801-000009,01-01-2018,AA,20,N102NN,SFO,JFK,1535,1529,-6,0,8,2351,-17,0,0,,0,,,,,,2586,0,0,0,0,0,2018-01,OTP_2018_01_January.csv,10
+BTS201801-000010,01-01-2018,AA,23,N105NN,JFK,LAX,1430,1457,27,27,1810,1807,-3,0,0,,0,,,,,,2475,0,0,0,0,0,2018-01,OTP_2018_01_January.csv,11

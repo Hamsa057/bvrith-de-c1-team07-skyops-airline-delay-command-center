@@ -1,0 +1,11 @@
+airport_code,airport_name,city,state_region,active_flag
+ATL,Hartsfield-Jackson Atlanta International,Atlanta,GA,1
+DFW,Dallas Fort Worth International,Dallas-Fort Worth,TX,1
+DEN,Denver International,Denver,CO,1
+ORD,Chicago O Hare International,Chicago,IL,1
+LAX,Los Angeles International,Los Angeles,CA,1
+JFK,John F Kennedy International,New York,NY,1
+SFO,San Francisco International,San Francisco,CA,1
+SEA,Seattle-Tacoma International,Seattle,WA,1
+LAS,Harry Reid International,Las Vegas,NV,1
+MCO,Orlando International,Orlando,FL,1
