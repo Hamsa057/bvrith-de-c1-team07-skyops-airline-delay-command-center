@@ -3,7 +3,7 @@ Synthetic Data Generator Template
 
 Week: 2
 Purpose:
-    Generate small educational CSV/JSON sample datasets for the assigned project.
+    Generate small synthetic airline datasets for the SkyOps Airline Delay Command Center project.
 
 Important:
     - Do not generate or use real personal/company/customer data.
@@ -31,11 +31,12 @@ STREAMING_DIR.mkdir(parents=True, exist_ok=True)
 
 def generate_reference_file() -> None:
     """Create a small reference file. Replace fields with project-specific values."""
-    output_path = RAW_DIR / "reference_master.csv"
+    output_path = RAW_DIR / "carriers.csv"
     rows = [
-        {"reference_id": "REF-001", "reference_name": "Sample A", "category": "Category 1"},
-        {"reference_id": "REF-002", "reference_name": "Sample B", "category": "Category 2"},
-    ]
+    {"carrier_code": "AA", "carrier_name": "American Airlines"},
+    {"carrier_code": "DL", "carrier_name": "Delta Air Lines"},
+    {"carrier_code": "UA", "carrier_name": "United Airlines"},
+]
 
     with output_path.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=rows[0].keys())
@@ -45,10 +46,18 @@ def generate_reference_file() -> None:
 
 def generate_source_file(row_count: int = 100) -> None:
     """Create a simple raw source file. Replace fields based on assigned project."""
-    output_path = RAW_DIR / "source_events_raw.csv"
+    output_path = RAW_DIR / "flights.csv"
     start_time = datetime(2026, 7, 3, 9, 0, 0)
 
-    fieldnames = ["source_record_id", "reference_id", "event_timestamp", "event_type", "amount", "status"]
+    fieldnames = [
+        "flight_id",
+        "flight_date",
+        "carrier_code",
+        "origin_airport",
+        "destination_airport",
+        "departure_delay",
+        "arrival_delay"
+    ]
     statuses = ["completed", "pending", "cancelled"]
     event_types = ["type_a", "type_b", "type_c"]
 
@@ -59,12 +68,13 @@ def generate_source_file(row_count: int = 100) -> None:
         for i in range(1, row_count + 1):
             ts = start_time + timedelta(minutes=random.randint(0, 3000))
             writer.writerow({
-                "source_record_id": f"SRC-{i:06d}",
-                "reference_id": random.choice(["REF-001", "REF-002", "REF-999"]),  # REF-999 is intentional defect
-                "event_timestamp": ts.isoformat(),
-                "event_type": random.choice(event_types),
-                "amount": round(random.uniform(10, 500), 2),
-                "status": random.choice(statuses),
+                "flight_id": f"FLT{i:06d}",
+                "flight_date": "2024-01-01",
+                "carrier_code": random.choice(["AA", "DL", "UA"]),
+                "origin_airport": random.choice(["JFK", "ATL", "ORD"]),
+                "destination_airport": random.choice(["LAX", "SFO", "DFW"]),
+                "departure_delay": random.randint(0, 60),
+                "arrival_delay": random.randint(0, 60),
             })
 
 
@@ -78,8 +88,13 @@ def generate_streaming_events(batch_number: int = 1, event_count: int = 25) -> N
             event = {
                 "event_id": f"EVT-{batch_number:03d}-{i:05d}",
                 "event_timestamp": (start_time + timedelta(seconds=i * 30)).isoformat(),
-                "event_type": random.choice(["alert", "update", "transaction"]),
-                "entity_id": f"ENT-{random.randint(1, 50):04d}",
+                "event_type": random.choice([
+                    "Departure",
+                    "Arrival",
+                    "Delay",
+                    "Cancelled"
+                ]),
+                "flight_id": f"FLT{random.randint(1, 100):06d}",
                 "severity": random.choice(["low", "medium", "high"]),
             }
             f.write(json.dumps(event) + "\n")
