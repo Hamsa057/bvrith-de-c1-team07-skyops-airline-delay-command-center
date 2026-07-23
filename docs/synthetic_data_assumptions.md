@@ -57,3 +57,4 @@ Before using the generated data, the team verifies that:
 - Delay values are within expected ranges.
 - Controlled data quality issues are present but limited.
 - Source files can be joined correctly using common keys.
+- Sample data is consistent with the data dictionary.
