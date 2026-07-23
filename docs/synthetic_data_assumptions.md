@@ -1,7 +1,7 @@
 # Synthetic Data Assumptions
 
 **Week:** 2  
-**Purpose:** Document the assumptions used to create synthetic airline operations data for the SkyOps Airline Delay Command Center project.
+**Purpose:** Document the assumptions used to generate synthetic airline operations data for the SkyOps Airline Delay Command Center project.
 
 ---
 
