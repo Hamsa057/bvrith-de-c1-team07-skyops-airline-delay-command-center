@@ -19,14 +19,14 @@ This week's objective was to set up the Databricks workspace and perform initial
 ## 2. Work Completed
 
 | Task | Owner | Status | Evidence |
-|------|-------|--------|----------|
-| Created Databricks workspace | Team | Done | Databricks workspace |
-| Loaded sample raw datasets into Databricks | Team | Done | notebooks/01_data_exploration.ipynb |
-| Displayed sample records | Team | Done | Notebook output |
-| Verified dataset schema | Team | Done | week03_schema_and_row_count.png |
-| Checked row counts | Team | Done | week03_schema_and_row_count.png |
-| Performed basic profiling (null values and data quality checks) | Team | Done | Notebook profiling queries |
-| Updated Week 03 log | Team | Done | weekly_logs/week03_log.md |
+|------|--------|--------|----------|
+| Created Databricks workspace | Team 07 | Done | Databricks workspace |
+| Loaded sample raw datasets into Databricks | Team 07 | Done | notebooks/01_data_exploration.ipynb |
+| Displayed sample records | Team 07 | Done | Notebook output |
+| Verified dataset schema | Team 07 | Done | week03_schema_and_row_count.png |
+| Checked row counts | Team 07 | Done | week03_schema_and_row_count.png |
+| Performed basic profiling (null values and data quality checks) | Team 07 | Done | Notebook profiling queries |
+| Updated Week 03 log | Team 07 | Done | weekly_logs/week03_log.md |
 
 ---
 
