@@ -18,14 +18,14 @@ Implement the Bronze ingestion layer by reading all approved batch source files 
 | Task | Owner | Status | Evidence |
 |---|---|---|---|
 | Created Week 4 Bronze Ingestion notebook (`02_bronze_ingestion.ipynb`) |[T. Lakshmi Raja Hamsa] | Done | notebooks/02_bronze_ingestion.ipynb |
-| Configured Unity Catalog, schema, and Volume path | [Dhana Lakshmi] | Done | Notebook output |
+| Configured Unity Catalog, schema, and Volume path | [Dhanalakshmi] | Done | Notebook output |
 | Ingested `airports.csv` into `bronze_airports` | [Sowjanya] | Done | Notebook execution |
 | Ingested `carriers.csv` into `bronze_carriers` | [Sowjanya] | Done | Notebook execution |
 | Ingested `flights.csv` into `bronze_flights` | [Sowjanya] | Done | Notebook execution |
 | Ingested `routes.csv` into `bronze_routes` | [T. Lakshmi Raja Hamsa] | Done | Notebook execution |
 | Added ingestion metadata (`ingestion_timestamp`, `source_system`, `source_file_name`, `batch_id`) | [T. Lakshmi Raja Hamsa] | Done | Bronze tables |
-| Reconciled source and Bronze row counts for all datasets | [] | Done | Reconciliation output |
-| Captured execution screenshots and updated repository | [Dhana Lakshmi] | Done | evidence/week_04/ |
+| Reconciled source and Bronze row counts for all datasets | [Dhanalakshmi] | Done | Reconciliation output |
+| Captured execution screenshots and updated repository | [Dhanalakshmi] | Done | evidence/week_04/ |
 
 ---
 
