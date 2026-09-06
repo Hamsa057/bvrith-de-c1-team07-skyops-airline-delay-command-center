@@ -50,7 +50,6 @@ Evaluate the completed Silver Candidate tables against the approved SkyOps Data 
 | Blocker | Impact | Help Needed |
 |---|---|---|
 | Some numeric DQ thresholds were not explicitly specified in the supplied project material | Risk of applying an incorrect business threshold | Confirm project-specific thresholds with the approved specification/mentor |
-| Final DQ counts depend on actual Databricks execution | Evidence must contain genuine execution results | Verify final notebook outputs and screenshots before submission |
 
 
 ---
