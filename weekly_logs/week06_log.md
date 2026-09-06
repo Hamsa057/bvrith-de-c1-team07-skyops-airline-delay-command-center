@@ -1,7 +1,7 @@
 # Week 06 Log — Data Quality and Trusted/Quarantine Routing
 
 **Week:** 6  
-**Date range:** 6 Sep 2026 – 12 Sep 2026 
+**Date range:** 6 Sep 2026 
 **Team:**  Team 07  
 **Project:** SkyOps Airline Delay Command Center
 ---
